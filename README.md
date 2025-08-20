@@ -1,9 +1,32 @@
-Context: The data comes from YourCab, a Bangalore-based city-specific cab company that operated around 2013—before app-based services like Uber or Ola were popular. Customers booked cabs through a desktop website, mobile website, or call center (not via mobile apps).
+# YourCab Dataset Description
 
-Business Problem: Cancellations due to car unavailability caused penalties for the company (the later the cancellation, the higher the penalty). The dataset is being used to build a predictive model to identify bookings at high risk of cancellation (due to car unavailability) before confirmation, so the company can avoid accepting them.
+## Context
+The dataset comes from **YourCab**, a Bangalore-based city-specific cab company that operated around **2013**—before app-based services like Uber or Ola were popular.  
+Customers booked cabs through:
+- Desktop website  
+- Mobile website  
+- Call center  
 
-Scope of Data:
+> Note: There was **no mobile app** for this service.
 
-Focuses only on cancellations from the company side (car unavailability), not customer-driven cancellations.
+---
 
-Covers different travel types: hourly rentals, point-to-point, and long-distance trips.
+## Business Problem
+Cancellations due to **car unavailability** caused penalties for the company.  
+- The **later** a cancellation occurred, the **higher the penalty** paid to the customer.  
+- These cancellations resulted in both **financial loss** and **reputation damage**.  
+
+**Objective**:  
+Build a **predictive model** that identifies bookings at high risk of cancellation (due to car unavailability) **before confirmation**, so the company can avoid accepting them.
+
+---
+
+## Scope of Data
+- Focuses only on **cancellations due to company-side issues** (car unavailability).  
+- Does **not** include customer-driven cancellations.  
+- Covers different **travel types**:  
+  - Hourly rentals  
+  - Point-to-point trips  
+  - Long-distance trips  
+
+---
